@@ -42,7 +42,7 @@ Docker will then begin to do its thing.
 4. Start a new container using `docker run`
 
   ```bash
-  docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=5trongP@55w0rd' -p 5533:1433 --name your-container-name -d yourname/yourapp
+  docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=5trongP@55w0rd' -p 5517:1433 --name your-container-name -d yourname/yourapp
   ```
 
 **Note:** MSSQL passwords must be at least eight (8) characters long, contain upper case, lower case, and digits.
