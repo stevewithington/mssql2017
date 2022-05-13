@@ -1,4 +1,4 @@
-# MSSQL for Docker
+# MSSQL 2017 for Docker
 
 This is **NOT** intended for production purposes. \
 This is intended strictly for learning and/or development purposes only.
