@@ -1,3 +1,5 @@
 # .gitkeep
 
 Any `.bak` files dropped in here will be available for backups.
+
+[Download AdventureWorks2017.bak](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2017.bak) and drop into this directory.

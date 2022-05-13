@@ -8,7 +8,7 @@ services:
 
     image: digitalmine/mssql2017:latest
 
-    container_name: "sql1"
+    container_name: "sql17"
 
     environment:
       ACCEPT_EULA: "Y"
@@ -17,7 +17,7 @@ services:
       MSSQL_PID: "Developer" 
 
     volumes:
-      - vol-mssql2017:/var/opt/mssql
+      - vol-mssql17:/var/opt/mssql
       # Note: this mounts the local `backup` directory to the container's `backup` directory
       - ./backup:/var/opt/mssql/backup
 
@@ -25,4 +25,4 @@ services:
       - "5517:1433"
 
 volumes:
-  vol-mssql2017:
+  vol-mssql17:

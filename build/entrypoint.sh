@@ -4,4 +4,5 @@
 /usr/build/configure-db.sh &
 
 # Start SQL Server
+# NOTE: this must be the last (right-most) command
 /opt/mssql/bin/sqlservr

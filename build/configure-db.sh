@@ -71,8 +71,5 @@ $HR"
 # Example of restoring a DB from a backup file
 RESTORE=$($SCMD -S 127.0.0.1 -i /usr/build/restore.sql)
 
-# Example of a custom setup script
-#SETUP=$($SCMD -S 127.0.0.1 -i /usr/build/setup.sql);
-
 echo "$HR
 MSSQL is ready!"

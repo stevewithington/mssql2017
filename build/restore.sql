@@ -2,9 +2,6 @@
 ** Example Restore
 ** <https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms>
 ** <https://github.com/microsoft/sql-server-samples/tree/master/samples/databases>
-** <https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2017.bak>
-** <https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak>
-** <https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksLT2017.bak>
 */
 
 SET NOCOUNT ON
